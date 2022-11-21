@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 # if(!require("remotes")){
 # install.packages("remotes")
 # }
-# remotes::install_github("cgao1/rxy2")
+# remotes::install_github("cgao1/ryx")
 # library(rxy)
 ```
 
@@ -31,7 +31,7 @@ This is a project for a class in Wesleyan University. It contains some interesti
 Below is an example code of how to use this package
 
 ```{r}
-# library(rxy)
+# library(ryx)
 # library(MASS)
 # x<-ryx(Boston,"medv")
 # print(x)

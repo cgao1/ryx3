@@ -1,4 +1,4 @@
-# rxy
+# ryx
 
 <!-- badges: start -->
 
@@ -8,17 +8,17 @@
 
 ![](tools.jpg)
 
-The goal of rxy is to provide an easy way to obtain results for correlation.
+The goal of ryx is to provide an easy way to obtain results for correlation.
 
 ## Installation
 
-You can install the development version of rxy like so:
+You can install the development version of ryx like so:
 
 ``` r
 if(!require("remotes")){
 install.packages("remotes")
 }
-remotes::install_github("cgao1/rxy2")
+remotes::install_github("cgao1/ryx")
 ```
 
 ## Example
@@ -26,7 +26,7 @@ remotes::install_github("cgao1/rxy2")
 This is a basic example which shows you how to solve use the package after installation:
 
 ``` r
-library(rxy)
+library(ryx)
 library(MASS)
 x<-ryx(Boston,"medv")
 print.ryx(x)
