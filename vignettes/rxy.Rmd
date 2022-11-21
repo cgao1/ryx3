@@ -1,0 +1,41 @@
+---
+title: "Introduction to Correlation tables, Plots, Summary"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to Correlation tables, Plots, Summary}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+# if(!require("remotes")){
+# install.packages("remotes")
+# }
+# remotes::install_github("cgao1/rxy2")
+# library(rxy)
+```
+
+# Introduction
+
+This is a project for a class in Wesleyan University. It contains some interesting functions for a correlation table.
+
+# Example
+
+Below is an example code of how to use this package
+
+```{r}
+# library(rxy)
+# library(MASS)
+# x<-ryx(Boston,"medv")
+# print(x)
+# summary(x)
+# plot(X)
+```
+
