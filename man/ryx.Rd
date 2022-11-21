@@ -27,6 +27,3 @@ x <- ryx(Boston, y="medv")
 x
 }
 }
-\seealso{
-\link[ggplot2]{ggplot}
-}

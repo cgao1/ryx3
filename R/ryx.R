@@ -1,10 +1,9 @@
+
 #' Get a list of input variables y and x and a correlation table of y with all of x
+#'
 #'
 #'@description
 #' This \code{ryx} returns a list that can be used with other functions in this package.
-#'
-#' @seealso
-#' \link[ggplot2]{ggplot}
 #'
 #' @param data The dataset that the variables are from
 #' @param y The variable used to correlate with each of x
@@ -50,6 +49,7 @@ ryx <- function(data, y, x){
 
 
 
+
 #' Prints the correlation table
 #'
 #' @param x The list result from the ryx function
@@ -57,8 +57,6 @@ ryx <- function(data, y, x){
 #'
 #' @return A correlation table
 #' @export
-#'
-#' @import ggplot2
 #'
 #' @examples
 #' \dontrun{
@@ -78,6 +76,7 @@ print.ryx<- function(x, digits=3){
 
 
 
+
 #' Summary of the correlation results
 #'
 #' @param x The list result from the ryx function
@@ -85,8 +84,6 @@ print.ryx<- function(x, digits=3){
 #'
 #' @return A paragraph summarizing the results of the correlation
 #' @export
-#'
-#' @import ggplot2
 #'
 #' @examples
 #' \dontrun{
@@ -115,15 +112,15 @@ summary.ryx<-function(x, digits=3){
 
 
 
+
 #' Create a Cleveland Dot Chart of the correlation
 #'
 #' @param x The list result from the ryx function
+#'
 #' @import ggplot2
+#'
 #' @return A Cleveland Dot Chart of the correlation
-#'
 #' @export
-#'
-#'
 #'
 #' @examples
 #' \dontrun{
